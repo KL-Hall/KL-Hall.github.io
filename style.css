@@ -49,7 +49,7 @@ body {
 		display: flex;
 		gap: 10px;
 		color: #f6f4fd;
-		width: 200;
+		width: auto;
 		overflow-x: scroll;
 		height: auto;
 		text-align: center;
