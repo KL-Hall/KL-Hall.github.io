@@ -4,108 +4,88 @@ html {
 	}
     
 body { 
-	font-family: "Comfortaa", sans-serif;
+	font-family: "Sofia", sans-serif;
 	font-size: 18px;
-	color: #f6f4fd; 
+	color: #000000; 
 	margin: 0; 
 	padding: 0;
-	background-color: #1f1933;
+	background-color: #293241;
 	}
 
-h2{
-	font-family: "Comfortaa", sans-serif;
-	font-size: 36px;
+.top {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 36px;
+    color: #ffeee0; 
+    width: 100%;
+    height: 60px;
+    margin: 0; 
+	padding: 15px;
+    background-color: #e76f51;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.bio {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    color: #ffeee0; 
+    width: 100%;
+    height: auto;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+	padding: 15px;
+    background-color: #e9c46a;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.segment1{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 36px;
+    color: #ffeee0; 
+    width: 100%;
+    height: auto;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+	padding: 15px;
+    background-color: #2a9d8f;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.projects{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 36px;
+    color: #ffeee0; 
+    width: 100%;
+    height: auto;
+	padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+.contacts{
+    background-color: #642388;
+	font-family: "Comfortaa",sans-serif;
+	font-size: 18px;
 	text-align: center;
-	color: #f6f4fd; 
-	margin: 0; 
 	padding: 5px;
-	}
-
-	.wrapper{
-		padding: 0;
-		margin: 0;
-		position: relative;
-	}
-
-	.top{
-		background-color: #100d1a7e;
-		font-size: 42px;
-		text-align: center;
-		top: 0;
-		width: 100%;
-		height: 100px;
-		z-index: 10;
-		padding: 10px;
-		box-sizing: border-box;
-	}
-
-	.bio{
-		background-color: #402791;
-		font-family: "Comfortaa",sans-serif;
-		color: #f6f4fd;
-		width: 100%;
-		height: 150px;
-		text-align: left;
-        line-height: 30px;
-		padding: 25px;
-		box-sizing: border-box;
-	}
-
-	
-	.examples{
-		background-color: #100d1a;
-		font-family: "Comfortaa",sans-serif;
-		display: flex;
-		gap: 10px;
-		color: #f6f4fd;
-		width: auto;
-		overflow-x: scroll;
-		height: auto;
-		text-align: center;
-		padding: 25px;
-		box-sizing: border-box;
-	}
-
-	.games{
-		background-color: #100d1a;
-		font-family: "Comfortaa",sans-serif;
-		display: flex;
-		gap: 10px;
-		color: #f6f4fd;
-		width: auto;
-		overflow-x: scroll;
-		height: auto;
-		text-align: center;
-		padding: 25px;
-		box-sizing: border-box;
-		justify-content: center;
-	}
-
-	.links{
-		font-size: 28px;
-		font-family:'Courier New', Courier;
-	}
-
-	.contacts{
-		background-color: #4027917c;
-		font-family: "Comfortaa",sans-serif;
-		font-size: 18px;
-		text-align: center;
-		padding: 1px;
-		color: #f6f4fd;
-		position: sticky;
-		bottom: 0;
-	}
+	color: #ffeee0;
+	position: sticky;
+	bottom: 0;
+}
 
 	a:link{
-		color: #9b7ff7;
+		color: #ffeee0;
 		text-decoration: none;
 	}
 
 	a:visited{
-		color:#9b7ff7;
+		color:#ffeee0;
 	}
 
 	a:hover{
-		color: #6d42fd;
+		color: #f4e29f;
 	}
