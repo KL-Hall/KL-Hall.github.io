@@ -11,8 +11,29 @@ body {
 	background-color: #fdfcdc;
 	}
 
+h2 { 
+	font-family: "Comfortaa", sans-serif;
+	font-size: 36px; 
+	margin: 0; 
+	padding: 0;
+	text-align:center;
+	color:#0081a7;
+}
+
 img {
     border: solid 5px #fed9b7;
+}
+
+.games{
+	display: flex;
+	justify-content:space-evenly;
+	overflow-x: scroll;
+}
+
+.examples{
+	display: flex;
+	justify-content:space-evenly;
+	overflow-x: scroll;
 }
 
 .top {
@@ -54,20 +75,6 @@ img {
     background-color: #0081a7;
     text-align: center;
     box-sizing: border-box;
-}
-
-.projects{
-    font-family: "Comfortaa", sans-serif;
-    font-size: 36px;
-    color: #fdfcdc; 
-    background-color: #fdfcdc;
-    width: 100%;
-    height: auto;
-	padding-right: 5px;
-    padding-left: 5px;
-    text-align: center;
-    box-sizing: border-box;
-    overflow-x: scroll;
 }
 
 .contacts{
